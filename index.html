@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20,300,1,200" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+  <title>Menu Responsivo</title>
+</head>
+<body>
+    
+    <header>
+      <span class="material-symbols-outlined"   onclick="clickMenu()">menu</span>
+      
+      <menu id="menu">
+        
+         <ul>
+          <li><a href="http://">Home</a></li>
+          <li><a href="http://">Portifolio</a></li>
+          <li><a href="http://">Contatos</a></li>
+          <li><a href="http://">Cadastro</a></li>
+         </ul>
+      </menu>
+    </header>
+    <main>
+      <h2>testando menu Responsivo</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti nostrum quod, iusto rem totam assumenda. Doloribus, optio laborum, aperiam tempore veritatis iste, voluptatibus corporis inventore nam assumenda repudiandae autem!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti nostrum quod, iusto rem totam assumenda. Doloribus, optio laborum, aperiam tempore veritatis iste, voluptatibus corporis inventore nam assumenda repudiandae autem!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti nostrum quod, iusto rem totam assumenda. Doloribus, optio laborum, aperiam tempore veritatis iste, voluptatibus corporis inventore nam assumenda repudiandae autem!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti nostrum quod, iusto rem totam assumenda. Doloribus, optio laborum, aperiam tempore veritatis iste, voluptatibus corporis inventore nam assumenda repudiandae autem!</p>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima deleniti nostrum quod, iusto rem totam assumenda. Doloribus, optio laborum, aperiam tempore veritatis iste, voluptatibus corporis inventore nam assumenda repudiandae autem!</p>
+    </main>
+    <script>
+      
+      function clickMenu(){
+        if(menu.style.display == 'none'){
+              menu.style.display = 'block';
+              menu.style.transition = '5s linear'
+          }
+          else{
+            menu.style.display = 'none';
+            menu.style.transition = '5s linear'
+  }
+        
+      }
+    
+    </script>
+</body>
+</html>
