@@ -2,26 +2,29 @@
   margin:0;
   padding: 0;
   box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
   
 }
 body{
-  background-color:rgb(217, 217, 217);
+  background-color:#e7e7e7;
 }
 #menu{
-  background-color:#000;
+  background-color:#74b9ff;
   text-align: center;
-  display:block;
+  opacity:0;
+  transition:opacity 300ms linear;
+  
   
 }
 
 #menu li{
-  border-top:1px solid gray;
+  border-top:1px solid #ffffff;
   padding:4px;
   cursor:pointer;
   
 }
 #menu li:hover{
-  background-color:greenyellow;
+  background-color:#0984e3;
   transition:ease-in-out 700ms;
 }
 #menu a{
@@ -30,11 +33,12 @@ body{
   font-size:20px;
 }
 .material-symbols-outlined{
+  background-color: #0984e3;
   display: flex;
   justify-content: end;
-  margin-right:10px;
+  padding-right:10px;
   font-size:30px;
-  color: #000;
+  color:#FFF;
   cursor: pointer;
  
 }
@@ -42,14 +46,77 @@ main{
   width:90%;
   margin:10px auto;
   border-radius:10px;
-  background-color: #FFF;
+  background-color:#FFF;
   padding:10px;
   text-align: justify;
 }
 main h2{
   margin-top:20px;
+  color:#000;
   text-align: center;
+}
+main h1{
+  margin-top:20px;
+  text-align: center;
+  color:#0984e3;
 }
 main p{
   margin-top:20px;
+}
+footer{
+  width:90%;
+  margin:10px auto;
+  background-color: #FFF;
+  padding:10px;
+  border-radius:10px;
+}
+footer h2{
+  text-align: center;
+  color: #0984e3;
+  padding-top:20px;
+}
+.paymant{
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+}
+.paymant p{
+  color: #000;
+  font-size:20px;
+}
+.paymant a{
+  text-decoration: none;
+  
+}
+#icon_paymant{
+  color: #00b894;
+  font-size:28px;
+  padding:20px;
+}
+.central p{
+  text-align: center;
+
+}
+.social_media{
+  text-align: center;
+}
+.social_media a i{
+  color: #00b894;
+  font-size:28px;
+  padding:20px;
+  transition: ease-in-out 600ms;
+  
+}
+.social_media a i:hover{
+  transform: scale(1.2);
+  transition: ease-in-out 600ms;
+}
+span#medal{
+  color:#00b894;
+  font-size:40px;
+  width: 100%;
+  text-align: center;
+  margin-top:10px;
+  
+
 }
