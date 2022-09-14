@@ -9,10 +9,12 @@ body{
   background-color:#e7e7e7;
 }
 #menu{
+  position:absolute;
+  width:50%;
   background-color:#74b9ff;
   text-align: center;
   opacity:0;
-  transition:opacity 300ms linear;
+  transition:opacity 500ms linear;
   
   
 }
@@ -36,8 +38,8 @@ body{
   background-color: #0984e3;
   display: flex;
   justify-content: end;
-  padding-right:10px;
-  font-size:30px;
+  padding:8px;
+  font-size:40px;
   color:#FFF;
   cursor: pointer;
  
@@ -49,6 +51,7 @@ main{
   background-color:#FFF;
   padding:10px;
   text-align: justify;
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.502);
 }
 main h2{
   margin-top:20px;
@@ -69,8 +72,9 @@ footer{
   background-color: #FFF;
   padding:10px;
   border-radius:10px;
+  box-shadow: 0 0 2px 0px rgba(0, 0, 0, 0.502);
 }
-footer h2{
+footer h2,h3{
   text-align: center;
   color: #0984e3;
   padding-top:20px;
